@@ -218,9 +218,7 @@
 							<input type="submit" class="btn" value="Login">
 							<?php include("error.php") ?>
             </form>
-        </div>
-    </div>
-						</div>
+            </div>
 					
                     </div>    </div>
                     <div class="app-wrapper-footer">
@@ -248,6 +246,8 @@
                                 </div>
                             </div>
                         </div>
+        </div>
+    </div>
 </div>            
 </div>
 </div>
