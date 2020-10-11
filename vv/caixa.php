@@ -364,7 +364,7 @@ require_once("header.php");
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-              <li class="breadcrumb-item active">produtos</li>
+              <li class="breadcrumb-item active">caixa</li>
             </ol>
           </div>
         </div>
@@ -567,9 +567,9 @@ require_once("header.php");
                     <tr>
                       <td>175</td>
                       <td>Mike Doe</td>
-                      <td>11-7-2014</td>
-                      <td>11-7-2014</td>
-                      <td><span class="tag tag-danger">Denied</span></td>
+                      <td>Película</td>
+                      <td>R$10,00</td>
+                      <td><span class="tag tag-danger">11-7-2014</span></td>
                       <td>Venda realizada com sucesso.</td>
                     </tr>
                   </tbody>
