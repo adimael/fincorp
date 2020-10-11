@@ -843,7 +843,9 @@ define('ROOT_PATH', dirname(__FILE__) . '/');
 
 if(isset($_FILES['fotoperfil'])){
   $extensao = strtolower(substr($_FILES['fotoperfil']['name'], -4));
-  $novo_nome = $res_1['foto'];
+  $url= '../assets/images/avatars/'.$res_1['foto'];
+  unlink($url);
+  $novo_nome = rand().$_FILES['fotoperfil']['name'];
   
   $diretorio = ROOT_PATH . "../assets/images/avatars/";
 
